@@ -1,0 +1,31 @@
+{
+  "name": "purple-ember-theme",
+  "displayName": "Purple Ember Theme",
+  "description": "A dark VS Code theme with deep purples and warm orange highlights.",
+  "version": "0.0.2",
+  "publisher": "nyzzik",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "galleryBanner": {
+    "color": "#3A2159",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyzzik/purple-ember-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-ember-color-theme.json"
+      }
+    ]
+  }
+}
